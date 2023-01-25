@@ -1,0 +1,19 @@
+header{
+    background-image: url("../image/animal.jpg");
+    background-size: cover;
+    object-fit: cover;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+
+@media (max-width:1200px){
+    header{
+        width: 90%;
+    }
+}
+@media (max-width:600px){
+    header{
+        width: 100%;
+    }
+}

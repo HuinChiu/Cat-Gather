@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    font-size: 1.2rem;
+    background-color: #EEEEEE;
+}
+input{
+    padding: 5px 10px;
+}
+span{
+    margin: 5px 10px;
+}
+nav{
+    width: 1200px;
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FD7013;
+    .nav__item{
+        color: #FD7013;
+        font-weight: 700;
+        display: flex;
+    }
+    .nav__logo{
+        font-size: 30px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .nav__sign__item{
+        padding: 5px 10px;
+        background-color: #FD7013;
+        color: #EEEEEE;
+        border-radius: 5px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .tryme{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:1200px){
+    nav{
+        width: 90%;
+    }
+}
+@media (max-width:600px){
+    nav{
+        width: 100%;
+    }
+}
